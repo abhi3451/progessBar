@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+div span {
+  font-size: large;
+  margin-right: 45px;
+  margin-bottom: px;
+  font-weight: 200;
+}
+div h4 {
+  font-size: large;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  font-weight: 200;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+.progress {
+  position: relative;
+  display: flex;
+  height: 20px;
+  width: 500px;
+  background-color: rgb(233, 236, 239);
+  border: 1px solid #000000;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.progress div {
+  background-color: #00c251;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+}
+
+.progress span {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
